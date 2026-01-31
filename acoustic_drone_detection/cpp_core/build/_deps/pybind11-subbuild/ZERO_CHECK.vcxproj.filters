@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\pybind11-subbuild\CMakeFiles\4e26c23c5a4fad7c26983a5d665c9dc4\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{E66A2779-B859-3D8A-9F24-F2BC2A4446C0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

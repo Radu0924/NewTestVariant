@@ -1,0 +1,5 @@
+2026-01-31 02:15:49,331 | INFO     | DroneDetection | logger:info:199 | Initializing Drone Detection System
+2026-01-31 02:15:49,332 | INFO     | DroneDetection | logger:info:199 | No GPU detected, using CPU
+2026-01-31 02:15:49,346 | INFO     | DroneDetection | logger:info:199 | Array geometry: circular_12_mic
+2026-01-31 02:15:49,394 | INFO     | DroneDetection | logger:info:199 | Drone Detection System initialized
+2026-01-31 02:15:49,395 | ERROR    | DroneDetection | logger:error:207 | Failed to start audio capture

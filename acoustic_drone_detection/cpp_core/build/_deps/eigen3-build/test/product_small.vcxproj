@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3FC290EC-ADC1-317C-A6DE-88C5666D1C9D}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>product_small</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\test\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Drone/acoustic_drone_detection/cpp_core/build/_deps/eigen3-src/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Drone/acoustic_drone_detection/cpp_core -BD:/Drone/acoustic_drone_detection/cpp_core/build --check-stamp-file D:/Drone/acoustic_drone_detection/cpp_core/build/_deps/eigen3-build/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakePushCheckState.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CheckCXXSymbolExists.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CheckFortranFunctionExists.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CheckFunctionExists.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CheckLanguage.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CheckSourceCompiles.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CheckStructHasMember.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindBoost.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindPkgConfig.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindQt4.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindThreads.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\MacroAddFileDependencies.cmake;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\cmake\EigenSmokeTestList.cmake;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\cmake\FindBLAS.cmake;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\cmake\FindCHOLMOD.cmake;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\cmake\FindHWLOC.cmake;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\cmake\FindKLU.cmake;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\cmake\FindLAPACK.cmake;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\cmake\FindPASTIX.cmake;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\cmake\FindSPQR.cmake;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\cmake\FindSuperLU.cmake;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\cmake\FindUMFPACK.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Drone/acoustic_drone_detection/cpp_core/build/_deps/eigen3-src/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Drone/acoustic_drone_detection/cpp_core -BD:/Drone/acoustic_drone_detection/cpp_core/build --check-stamp-file D:/Drone/acoustic_drone_detection/cpp_core/build/_deps/eigen3-build/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakePushCheckState.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CheckCXXSymbolExists.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CheckFortranFunctionExists.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CheckFunctionExists.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CheckLanguage.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CheckSourceCompiles.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CheckStructHasMember.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindBoost.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindPkgConfig.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindQt4.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindThreads.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\MacroAddFileDependencies.cmake;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\cmake\EigenSmokeTestList.cmake;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\cmake\FindBLAS.cmake;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\cmake\FindCHOLMOD.cmake;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\cmake\FindHWLOC.cmake;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\cmake\FindKLU.cmake;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\cmake\FindLAPACK.cmake;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\cmake\FindPASTIX.cmake;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\cmake\FindSPQR.cmake;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\cmake\FindSuperLU.cmake;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\cmake\FindUMFPACK.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Drone/acoustic_drone_detection/cpp_core/build/_deps/eigen3-src/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Drone/acoustic_drone_detection/cpp_core -BD:/Drone/acoustic_drone_detection/cpp_core/build --check-stamp-file D:/Drone/acoustic_drone_detection/cpp_core/build/_deps/eigen3-build/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakePushCheckState.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CheckCXXSymbolExists.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CheckFortranFunctionExists.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CheckFunctionExists.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CheckLanguage.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CheckSourceCompiles.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CheckStructHasMember.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindBoost.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindPkgConfig.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindQt4.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindThreads.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\MacroAddFileDependencies.cmake;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\cmake\EigenSmokeTestList.cmake;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\cmake\FindBLAS.cmake;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\cmake\FindCHOLMOD.cmake;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\cmake\FindHWLOC.cmake;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\cmake\FindKLU.cmake;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\cmake\FindLAPACK.cmake;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\cmake\FindPASTIX.cmake;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\cmake\FindSPQR.cmake;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\cmake\FindSuperLU.cmake;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\cmake\FindUMFPACK.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Drone/acoustic_drone_detection/cpp_core/build/_deps/eigen3-src/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Drone/acoustic_drone_detection/cpp_core -BD:/Drone/acoustic_drone_detection/cpp_core/build --check-stamp-file D:/Drone/acoustic_drone_detection/cpp_core/build/_deps/eigen3-build/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakePushCheckState.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CheckCXXSymbolExists.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CheckFortranFunctionExists.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CheckFunctionExists.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CheckLanguage.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CheckSourceCompiles.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CheckStructHasMember.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindBoost.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindPkgConfig.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindQt4.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindThreads.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\MacroAddFileDependencies.cmake;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\cmake\EigenSmokeTestList.cmake;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\cmake\FindBLAS.cmake;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\cmake\FindCHOLMOD.cmake;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\cmake\FindHWLOC.cmake;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\cmake\FindKLU.cmake;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\cmake\FindLAPACK.cmake;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\cmake\FindPASTIX.cmake;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\cmake\FindSPQR.cmake;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\cmake\FindSuperLU.cmake;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\cmake\FindUMFPACK.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\ZERO_CHECK.vcxproj">
+      <Project>{A1FF0FAC-181F-3D2A-A9EB-752B6CABB56E}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\test\product_small_1.vcxproj">
+      <Project>{52687B1C-FFC0-3898-9AF4-66012BD5B45C}</Project>
+      <Name>product_small_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\test\product_small_11.vcxproj">
+      <Project>{7F29C7D5-8DB7-3C74-AFCC-45DE8F4B67CC}</Project>
+      <Name>product_small_11</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\test\product_small_12.vcxproj">
+      <Project>{63CB21A8-F34D-395C-B3E8-97DCEAE34706}</Project>
+      <Name>product_small_12</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\test\product_small_13.vcxproj">
+      <Project>{ED9393FD-F1D5-3FC2-B3D6-E1F71E668F01}</Project>
+      <Name>product_small_13</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\test\product_small_2.vcxproj">
+      <Project>{2C01DB43-5533-3F05-938F-B9AACFD2C15E}</Project>
+      <Name>product_small_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\test\product_small_21.vcxproj">
+      <Project>{38BE8E7C-2127-3DAE-9B22-8EC58B91A755}</Project>
+      <Name>product_small_21</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\test\product_small_22.vcxproj">
+      <Project>{E7670953-F8D5-3A24-8356-8B8C675BE15C}</Project>
+      <Name>product_small_22</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\test\product_small_23.vcxproj">
+      <Project>{D81C4FD3-DEB8-357B-97D8-7429083A6ED5}</Project>
+      <Name>product_small_23</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\test\product_small_3.vcxproj">
+      <Project>{AC2A57B2-F9A9-3EE5-9D1A-FEE26A3BD781}</Project>
+      <Name>product_small_3</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\test\product_small_31.vcxproj">
+      <Project>{D11257DC-A09B-3D29-B513-118420E5E222}</Project>
+      <Name>product_small_31</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\test\product_small_32.vcxproj">
+      <Project>{E3A0DA04-917E-33AB-BFDF-4A68E025755C}</Project>
+      <Name>product_small_32</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\test\product_small_33.vcxproj">
+      <Project>{727D8F4E-5A42-358F-9CFC-F97F1F013E4C}</Project>
+      <Name>product_small_33</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\test\product_small_4.vcxproj">
+      <Project>{AB587761-C718-3660-85C0-A3618B0D51F0}</Project>
+      <Name>product_small_4</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\test\product_small_41.vcxproj">
+      <Project>{28663C8A-9FD3-39E9-9F38-9E82175E0BC4}</Project>
+      <Name>product_small_41</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\test\product_small_42.vcxproj">
+      <Project>{09035845-EA0E-3B95-819A-9C92E20F80D4}</Project>
+      <Name>product_small_42</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\test\product_small_43.vcxproj">
+      <Project>{1137D95A-2D8E-3682-8237-BB62035958AC}</Project>
+      <Name>product_small_43</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\test\product_small_5.vcxproj">
+      <Project>{C98BD828-30A0-378C-BB81-C4CAA16FCF78}</Project>
+      <Name>product_small_5</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\test\product_small_6.vcxproj">
+      <Project>{83F9CD2E-64AA-3872-B71C-21639D59FBB9}</Project>
+      <Name>product_small_6</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\test\product_small_7.vcxproj">
+      <Project>{4DF54EE2-147A-3291-A955-E18AB56E9F89}</Project>
+      <Name>product_small_7</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\test\product_small_8.vcxproj">
+      <Project>{B0F6E895-4DAB-3AD2-BF6A-823E78CF49C0}</Project>
+      <Name>product_small_8</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\test\product_small_9.vcxproj">
+      <Project>{765D1889-AC3F-3A77-BE78-5CCE9C8DA506}</Project>
+      <Name>product_small_9</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

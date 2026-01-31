@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4203E797-0084-35E8-808F-ED06C87E2D88}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>unsupported_examples</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\unsupported\doc\examples\..\..\..\unsupported;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\unsupported\doc\examples\..\..\..\unsupported\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\unsupported\doc\examples\..\..\..\unsupported;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\unsupported\doc\examples\..\..\..\unsupported\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\unsupported\doc\examples\..\..\..\unsupported;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\unsupported\doc\examples\..\..\..\unsupported\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\unsupported\doc\examples\..\..\..\unsupported;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\unsupported\doc\examples\..\..\..\unsupported\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\unsupported\doc\examples\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Drone/acoustic_drone_detection/cpp_core/build/_deps/eigen3-src/unsupported/doc/examples/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Drone/acoustic_drone_detection/cpp_core -BD:/Drone/acoustic_drone_detection/cpp_core/build --check-stamp-file D:/Drone/acoustic_drone_detection/cpp_core/build/_deps/eigen3-build/unsupported/doc/examples/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\doc\examples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Drone/acoustic_drone_detection/cpp_core/build/_deps/eigen3-src/unsupported/doc/examples/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Drone/acoustic_drone_detection/cpp_core -BD:/Drone/acoustic_drone_detection/cpp_core/build --check-stamp-file D:/Drone/acoustic_drone_detection/cpp_core/build/_deps/eigen3-build/unsupported/doc/examples/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\doc\examples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Drone/acoustic_drone_detection/cpp_core/build/_deps/eigen3-src/unsupported/doc/examples/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Drone/acoustic_drone_detection/cpp_core -BD:/Drone/acoustic_drone_detection/cpp_core/build --check-stamp-file D:/Drone/acoustic_drone_detection/cpp_core/build/_deps/eigen3-build/unsupported/doc/examples/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\doc\examples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Drone/acoustic_drone_detection/cpp_core/build/_deps/eigen3-src/unsupported/doc/examples/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Drone/acoustic_drone_detection/cpp_core -BD:/Drone/acoustic_drone_detection/cpp_core/build --check-stamp-file D:/Drone/acoustic_drone_detection/cpp_core/build/_deps/eigen3-build/unsupported/doc/examples/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\doc\examples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\ZERO_CHECK.vcxproj">
+      <Project>{A1FF0FAC-181F-3D2A-A9EB-752B6CABB56E}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\doc\examples\example_BVH_Example.vcxproj">
+      <Project>{2F95D143-547E-3044-A3A8-C9CA7200B7F3}</Project>
+      <Name>example_BVH_Example</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\doc\examples\example_EulerAngles.vcxproj">
+      <Project>{09A49D06-ED71-3E1A-9F7F-98EEE0D27C5C}</Project>
+      <Name>example_EulerAngles</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\doc\examples\example_FFT.vcxproj">
+      <Project>{6DED53D3-941C-38C3-A24D-6255B4F4D01C}</Project>
+      <Name>example_FFT</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\doc\examples\example_MatrixExponential.vcxproj">
+      <Project>{8F863CA2-01F7-30A4-8610-EFBB6D413DC3}</Project>
+      <Name>example_MatrixExponential</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\doc\examples\example_MatrixFunction.vcxproj">
+      <Project>{89A2FB31-A688-3FDE-9E89-98CA5E16BD42}</Project>
+      <Name>example_MatrixFunction</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\doc\examples\example_MatrixLogarithm.vcxproj">
+      <Project>{43EA7ABB-236E-3832-A1D3-F4910D4152FF}</Project>
+      <Name>example_MatrixLogarithm</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\doc\examples\example_MatrixPower.vcxproj">
+      <Project>{B5E18C8F-3F00-34C5-80D3-895A9553DC1A}</Project>
+      <Name>example_MatrixPower</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\doc\examples\example_MatrixPower_optimal.vcxproj">
+      <Project>{D12E77A6-EDF7-36FD-892E-16EB9640C8E7}</Project>
+      <Name>example_MatrixPower_optimal</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\doc\examples\example_MatrixSine.vcxproj">
+      <Project>{3ABA19F9-A5AB-3697-B742-0D6FCA55DA56}</Project>
+      <Name>example_MatrixSine</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\doc\examples\example_MatrixSinh.vcxproj">
+      <Project>{34D875CE-3183-31F2-B6E9-D11BBD68B71C}</Project>
+      <Name>example_MatrixSinh</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\doc\examples\example_MatrixSquareRoot.vcxproj">
+      <Project>{796DBC4C-3801-3237-A226-663F543AE087}</Project>
+      <Name>example_MatrixSquareRoot</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\doc\examples\example_PolynomialSolver1.vcxproj">
+      <Project>{9D6A55C3-4ED0-3284-9DEC-EF281C3F20CE}</Project>
+      <Name>example_PolynomialSolver1</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\doc\examples\example_PolynomialUtils1.vcxproj">
+      <Project>{54A22A1A-09C9-3FC8-9718-0872FF7FC1AA}</Project>
+      <Name>example_PolynomialUtils1</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

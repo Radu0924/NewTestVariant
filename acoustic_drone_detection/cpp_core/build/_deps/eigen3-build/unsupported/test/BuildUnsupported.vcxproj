@@ -1,0 +1,582 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2A9B6942-72DA-39E6-BE86-E6C78C9C8100}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>BuildUnsupported</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\unsupported\test\..\..\test;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\unsupported\test\..\..\unsupported;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\unsupported\test\..\..\Eigen;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\..\..\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\unsupported\test\..\..\test;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\unsupported\test\..\..\unsupported;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\unsupported\test\..\..\Eigen;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\..\..\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\unsupported\test\..\..\test;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\unsupported\test\..\..\unsupported;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\unsupported\test\..\..\Eigen;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\..\..\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\unsupported\test\..\..\test;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\unsupported\test\..\..\unsupported;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\unsupported\test\..\..\Eigen;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\..\..\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\unsupported\test\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Drone/acoustic_drone_detection/cpp_core/build/_deps/eigen3-src/unsupported/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Drone/acoustic_drone_detection/cpp_core -BD:/Drone/acoustic_drone_detection/cpp_core/build --check-stamp-file D:/Drone/acoustic_drone_detection/cpp_core/build/_deps/eigen3-build/unsupported/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindCUDA.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindCUDA\select_compute_arch.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindPkgConfig.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindThreads.cmake;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\cmake\FindAdolc.cmake;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\cmake\FindFFTW.cmake;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\cmake\FindGoogleHash.cmake;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\cmake\FindMPFR.cmake;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\cmake\FindMPREAL.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Drone/acoustic_drone_detection/cpp_core/build/_deps/eigen3-src/unsupported/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Drone/acoustic_drone_detection/cpp_core -BD:/Drone/acoustic_drone_detection/cpp_core/build --check-stamp-file D:/Drone/acoustic_drone_detection/cpp_core/build/_deps/eigen3-build/unsupported/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindCUDA.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindCUDA\select_compute_arch.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindPkgConfig.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindThreads.cmake;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\cmake\FindAdolc.cmake;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\cmake\FindFFTW.cmake;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\cmake\FindGoogleHash.cmake;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\cmake\FindMPFR.cmake;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\cmake\FindMPREAL.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Drone/acoustic_drone_detection/cpp_core/build/_deps/eigen3-src/unsupported/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Drone/acoustic_drone_detection/cpp_core -BD:/Drone/acoustic_drone_detection/cpp_core/build --check-stamp-file D:/Drone/acoustic_drone_detection/cpp_core/build/_deps/eigen3-build/unsupported/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindCUDA.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindCUDA\select_compute_arch.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindPkgConfig.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindThreads.cmake;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\cmake\FindAdolc.cmake;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\cmake\FindFFTW.cmake;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\cmake\FindGoogleHash.cmake;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\cmake\FindMPFR.cmake;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\cmake\FindMPREAL.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Drone/acoustic_drone_detection/cpp_core/build/_deps/eigen3-src/unsupported/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Drone/acoustic_drone_detection/cpp_core -BD:/Drone/acoustic_drone_detection/cpp_core/build --check-stamp-file D:/Drone/acoustic_drone_detection/cpp_core/build/_deps/eigen3-build/unsupported/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindCUDA.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindCUDA\select_compute_arch.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindPkgConfig.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\FindThreads.cmake;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\cmake\FindAdolc.cmake;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\cmake\FindFFTW.cmake;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\cmake\FindGoogleHash.cmake;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\cmake\FindMPFR.cmake;D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\cmake\FindMPREAL.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\ZERO_CHECK.vcxproj">
+      <Project>{A1FF0FAC-181F-3D2A-A9EB-752B6CABB56E}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\BVH_1.vcxproj">
+      <Project>{FA898B87-43DC-3930-9B1B-7F7028E10C79}</Project>
+      <Name>BVH_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\BVH_2.vcxproj">
+      <Project>{2B7020BA-FD2F-3C87-97E7-599CA68C9225}</Project>
+      <Name>BVH_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\BVH_3.vcxproj">
+      <Project>{4DD1F24D-F888-34D2-996B-D42C07680B51}</Project>
+      <Name>BVH_3</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\EulerAngles_1.vcxproj">
+      <Project>{C52F228D-0157-37B8-B121-BA245C1CE0C0}</Project>
+      <Name>EulerAngles_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\EulerAngles_2.vcxproj">
+      <Project>{E429E849-6183-3BD3-8F4A-0542E1A3C394}</Project>
+      <Name>EulerAngles_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\EulerAngles_3.vcxproj">
+      <Project>{B72CDD04-C6EB-3B06-9566-EF5F560F36D7}</Project>
+      <Name>EulerAngles_3</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\EulerAngles_4.vcxproj">
+      <Project>{87D589FB-1953-3C38-B760-B847CB4C6F56}</Project>
+      <Name>EulerAngles_4</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\FFT.vcxproj">
+      <Project>{BD707A47-295F-3389-91CE-047B3F19FFB8}</Project>
+      <Name>FFT</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\NonLinearOptimization.vcxproj">
+      <Project>{FC0DC45E-B04A-347E-A0B7-D1D23898D564}</Project>
+      <Name>NonLinearOptimization</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\NumericalDiff.vcxproj">
+      <Project>{10C99B26-5060-3532-A12C-E64223EBD5F5}</Project>
+      <Name>NumericalDiff</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\alignedvector3.vcxproj">
+      <Project>{CE3FB398-8C0F-37EF-B5C5-7381797E900C}</Project>
+      <Name>alignedvector3</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\autodiff_1.vcxproj">
+      <Project>{5C827DB7-6F1A-3DBE-BB40-F0BA10C12350}</Project>
+      <Name>autodiff_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\autodiff_2.vcxproj">
+      <Project>{CE52E391-75E9-3E0D-871D-C43364569062}</Project>
+      <Name>autodiff_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\autodiff_3.vcxproj">
+      <Project>{CC93A8BA-154C-3E99-891C-D6330F05B4DA}</Project>
+      <Name>autodiff_3</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\autodiff_4.vcxproj">
+      <Project>{DE8F41DE-C131-3E66-9BAA-56EF5660F9F7}</Project>
+      <Name>autodiff_4</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\autodiff_5.vcxproj">
+      <Project>{23D38A85-72AD-3D81-9637-210955A13BA1}</Project>
+      <Name>autodiff_5</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\autodiff_scalar_1.vcxproj">
+      <Project>{BAB57845-F5BF-39B6-9015-AE87323115A2}</Project>
+      <Name>autodiff_scalar_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\autodiff_scalar_2.vcxproj">
+      <Project>{191EE62C-AFA6-3135-95C3-708CB6BCC147}</Project>
+      <Name>autodiff_scalar_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\autodiff_scalar_3.vcxproj">
+      <Project>{45FC7AFC-B9F8-367E-AFAA-7C19A1221686}</Project>
+      <Name>autodiff_scalar_3</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\autodiff_scalar_4.vcxproj">
+      <Project>{2E65590A-9BA7-3B1C-A4B5-B85811B1E63F}</Project>
+      <Name>autodiff_scalar_4</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\autodiff_scalar_5.vcxproj">
+      <Project>{69C31C76-FB68-3CF4-A5FC-8E583AAF46B8}</Project>
+      <Name>autodiff_scalar_5</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\bessel_functions_1.vcxproj">
+      <Project>{5018582E-0E2A-351E-9AA1-6BD6EA5F6D68}</Project>
+      <Name>bessel_functions_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\bessel_functions_2.vcxproj">
+      <Project>{EFE06EC7-B6BB-390F-8C4C-BD974A1527D3}</Project>
+      <Name>bessel_functions_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\dgmres_1.vcxproj">
+      <Project>{5A73A6DD-E381-3C5C-8069-0163E7477BD2}</Project>
+      <Name>dgmres_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\dgmres_2.vcxproj">
+      <Project>{029FC2EF-2C71-3BB7-A544-BAD470BF66DB}</Project>
+      <Name>dgmres_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\gmres_1.vcxproj">
+      <Project>{BD96CCAA-85FC-3592-AD9E-FC4CC1987F9A}</Project>
+      <Name>gmres_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\gmres_2.vcxproj">
+      <Project>{86BFC560-94EB-3CA9-A4E3-26A65D8DE7EE}</Project>
+      <Name>gmres_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\idrs_1.vcxproj">
+      <Project>{BDF6D0DD-F9E2-32C2-9673-8A20A9302ED8}</Project>
+      <Name>idrs_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\idrs_2.vcxproj">
+      <Project>{AE2BAE13-DF05-360E-8FC0-64DD0B3E1137}</Project>
+      <Name>idrs_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\kronecker_product_1.vcxproj">
+      <Project>{0F59D6EE-39E5-3A31-8F83-BFF3DBB3CF63}</Project>
+      <Name>kronecker_product_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\kronecker_product_2.vcxproj">
+      <Project>{98EF5835-E79C-3F17-83DB-527185D813E7}</Project>
+      <Name>kronecker_product_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\levenberg_marquardt.vcxproj">
+      <Project>{40C24713-676B-31E0-947B-67C038FFD0D9}</Project>
+      <Name>levenberg_marquardt</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\matrix_exponential_1.vcxproj">
+      <Project>{42C5D40E-E152-327C-B79D-C9B4DA723AE1}</Project>
+      <Name>matrix_exponential_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\matrix_exponential_2.vcxproj">
+      <Project>{318F7F0D-94F1-331A-A5B4-B44151824815}</Project>
+      <Name>matrix_exponential_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\matrix_exponential_3.vcxproj">
+      <Project>{FC3E5F6F-CF3A-35B9-B346-203F42C0FE6A}</Project>
+      <Name>matrix_exponential_3</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\matrix_exponential_4.vcxproj">
+      <Project>{11070F2D-E746-3434-8B87-C46A5C083B42}</Project>
+      <Name>matrix_exponential_4</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\matrix_exponential_5.vcxproj">
+      <Project>{D7FAD5DA-5C08-3B8A-9B57-8A1B57CBCE5F}</Project>
+      <Name>matrix_exponential_5</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\matrix_exponential_6.vcxproj">
+      <Project>{2F57C7EA-DDBD-3030-A2A8-6E274E882000}</Project>
+      <Name>matrix_exponential_6</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\matrix_exponential_7.vcxproj">
+      <Project>{4C34960B-16E4-339D-9A5C-CAFD13256226}</Project>
+      <Name>matrix_exponential_7</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\matrix_exponential_8.vcxproj">
+      <Project>{1E1B93A7-40BF-3260-A7F2-B90BC50B37F5}</Project>
+      <Name>matrix_exponential_8</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\matrix_exponential_9.vcxproj">
+      <Project>{2A36EBD7-8E44-3EBC-8601-1B0E44FC2B63}</Project>
+      <Name>matrix_exponential_9</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\matrix_function_1.vcxproj">
+      <Project>{1327AE86-BC5A-3E7F-A4F5-CC8DF1B5810A}</Project>
+      <Name>matrix_function_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\matrix_function_2.vcxproj">
+      <Project>{7E97A1F8-AEF0-3BFE-9D4A-9F8723468CBE}</Project>
+      <Name>matrix_function_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\matrix_function_3.vcxproj">
+      <Project>{0E12A746-E3BF-39B7-A13B-E3046186643C}</Project>
+      <Name>matrix_function_3</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\matrix_function_4.vcxproj">
+      <Project>{7B6BA8DD-4DBC-3589-BE58-B19D225D1691}</Project>
+      <Name>matrix_function_4</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\matrix_function_5.vcxproj">
+      <Project>{46A027FF-E567-3345-908D-071223A0DD84}</Project>
+      <Name>matrix_function_5</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\matrix_function_6.vcxproj">
+      <Project>{27B1FA42-4EAB-355D-8B0B-AA4BFD089DB7}</Project>
+      <Name>matrix_function_6</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\matrix_function_7.vcxproj">
+      <Project>{E885604D-1371-3428-BBCE-B3422877F803}</Project>
+      <Name>matrix_function_7</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\matrix_power_1.vcxproj">
+      <Project>{40799DC5-F2B7-3705-846C-368AE719D740}</Project>
+      <Name>matrix_power_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\matrix_power_10.vcxproj">
+      <Project>{BE3B8EDD-7D9A-3240-A89C-2A7990556ADA}</Project>
+      <Name>matrix_power_10</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\matrix_power_11.vcxproj">
+      <Project>{D4E46432-D550-3A5D-A176-F0DAAEE79CE4}</Project>
+      <Name>matrix_power_11</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\matrix_power_12.vcxproj">
+      <Project>{113145BD-1DB8-3F3F-BEC9-CA1FED88E33C}</Project>
+      <Name>matrix_power_12</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\matrix_power_2.vcxproj">
+      <Project>{9C099CB7-6C75-33A4-A894-32586FAFDB99}</Project>
+      <Name>matrix_power_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\matrix_power_3.vcxproj">
+      <Project>{7BFE395C-C3FD-3BB2-8BB1-FF8B90CBE63E}</Project>
+      <Name>matrix_power_3</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\matrix_power_4.vcxproj">
+      <Project>{67BF27FD-FAE4-3E11-A443-88E02D12FBA4}</Project>
+      <Name>matrix_power_4</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\matrix_power_5.vcxproj">
+      <Project>{1450A50C-06BC-3264-8870-8240B2C3068D}</Project>
+      <Name>matrix_power_5</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\matrix_power_6.vcxproj">
+      <Project>{61AB2C4F-08BF-3824-9E14-A81FD76DAD37}</Project>
+      <Name>matrix_power_6</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\matrix_power_7.vcxproj">
+      <Project>{30B18FE5-3DE4-3480-A8F8-4E6204358DB7}</Project>
+      <Name>matrix_power_7</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\matrix_power_8.vcxproj">
+      <Project>{8BE08124-61F0-3E5D-AF8C-369CEF9ABFBC}</Project>
+      <Name>matrix_power_8</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\matrix_power_9.vcxproj">
+      <Project>{76679B3E-0D9A-377C-8A8E-20395DEB347D}</Project>
+      <Name>matrix_power_9</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\matrix_square_root_1.vcxproj">
+      <Project>{E53258F5-CDA4-3893-B5CB-C39F9C365D3A}</Project>
+      <Name>matrix_square_root_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\matrix_square_root_2.vcxproj">
+      <Project>{8D055A69-238F-3F2C-A5F6-416D2AF65733}</Project>
+      <Name>matrix_square_root_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\matrix_square_root_3.vcxproj">
+      <Project>{5F5A8215-C022-3941-B0F0-774783E9C006}</Project>
+      <Name>matrix_square_root_3</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\matrix_square_root_4.vcxproj">
+      <Project>{7C040DBA-1B25-37B8-A99A-86401E8910E0}</Project>
+      <Name>matrix_square_root_4</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\matrix_square_root_5.vcxproj">
+      <Project>{A9682132-4132-3E07-96BC-DE21403E69DE}</Project>
+      <Name>matrix_square_root_5</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\minres_1.vcxproj">
+      <Project>{358B24C9-36A7-3ABC-A502-A4879111D1FA}</Project>
+      <Name>minres_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\minres_2.vcxproj">
+      <Project>{DEC51F21-8DEB-3FE4-95EF-F2B9F31A9CBA}</Project>
+      <Name>minres_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\polynomialsolver_1.vcxproj">
+      <Project>{88769061-9C23-347B-834C-64BCF35F86D3}</Project>
+      <Name>polynomialsolver_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\polynomialsolver_10.vcxproj">
+      <Project>{F21954D4-B3CD-36EA-AC14-5D02F99E9946}</Project>
+      <Name>polynomialsolver_10</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\polynomialsolver_11.vcxproj">
+      <Project>{4CBAD336-0692-39FC-955C-B743077422C2}</Project>
+      <Name>polynomialsolver_11</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\polynomialsolver_12.vcxproj">
+      <Project>{FB135250-7CC4-36DD-9608-B51B9B90CE0E}</Project>
+      <Name>polynomialsolver_12</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\polynomialsolver_2.vcxproj">
+      <Project>{638788AE-F685-35CA-8DBC-0060C1B98062}</Project>
+      <Name>polynomialsolver_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\polynomialsolver_3.vcxproj">
+      <Project>{23174FDF-BE85-3FEA-9835-61D3D217699E}</Project>
+      <Name>polynomialsolver_3</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\polynomialsolver_4.vcxproj">
+      <Project>{88C6FAB7-34E9-39CC-BB12-A8C2989D47A6}</Project>
+      <Name>polynomialsolver_4</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\polynomialsolver_5.vcxproj">
+      <Project>{3EB60B4D-B3E9-3C6B-9D5F-63053F1DF832}</Project>
+      <Name>polynomialsolver_5</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\polynomialsolver_6.vcxproj">
+      <Project>{A5FCF180-2E0B-31D9-A3FD-04F446A7E237}</Project>
+      <Name>polynomialsolver_6</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\polynomialsolver_7.vcxproj">
+      <Project>{86F31EB5-BE46-3660-871E-673271F4B7D2}</Project>
+      <Name>polynomialsolver_7</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\polynomialsolver_8.vcxproj">
+      <Project>{0FE6B322-48C6-31B0-8A3B-F2B46DF7F371}</Project>
+      <Name>polynomialsolver_8</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\polynomialsolver_9.vcxproj">
+      <Project>{6728260F-5564-3C13-BC98-F4FB23B56756}</Project>
+      <Name>polynomialsolver_9</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\polynomialutils_2.vcxproj">
+      <Project>{62F65917-8AF0-367F-9E9A-048A8C209DA0}</Project>
+      <Name>polynomialutils_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\polynomialutils_3.vcxproj">
+      <Project>{BCF057D6-6D53-3CB0-9B14-61F1F9177988}</Project>
+      <Name>polynomialutils_3</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\polynomialutils_4.vcxproj">
+      <Project>{1BAF5B2F-9E1B-31F8-B14E-04F0A01E8B29}</Project>
+      <Name>polynomialutils_4</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\polynomialutils_5.vcxproj">
+      <Project>{93EA6056-1505-39A9-A0C8-145269A1DB64}</Project>
+      <Name>polynomialutils_5</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\polynomialutils_6.vcxproj">
+      <Project>{BED3569B-B66B-347D-A881-E907F3DAAE3D}</Project>
+      <Name>polynomialutils_6</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\polynomialutils_7.vcxproj">
+      <Project>{D2206B1D-1F0E-31D9-8CC0-B0B0EA726B1C}</Project>
+      <Name>polynomialutils_7</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\polynomialutils_8.vcxproj">
+      <Project>{5F99FF33-AB4B-3686-A3FF-535E23FF50CB}</Project>
+      <Name>polynomialutils_8</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\polynomialutils_9.vcxproj">
+      <Project>{092C2BFC-784A-3167-8FB8-1F5C25746CA2}</Project>
+      <Name>polynomialutils_9</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\sparse_extra_1.vcxproj">
+      <Project>{1D5CD09B-151C-30D1-A513-6AB7F7CA36B3}</Project>
+      <Name>sparse_extra_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\sparse_extra_2.vcxproj">
+      <Project>{31D0BA22-9BCE-36C2-B000-918896A857F4}</Project>
+      <Name>sparse_extra_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\sparse_extra_3.vcxproj">
+      <Project>{ED0E4970-4E20-3C66-A4D2-85C8C786E145}</Project>
+      <Name>sparse_extra_3</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\sparse_extra_4.vcxproj">
+      <Project>{E008C92B-47D8-33EE-9D1E-838B55D133E2}</Project>
+      <Name>sparse_extra_4</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\sparse_extra_5.vcxproj">
+      <Project>{72D5AAB0-585D-38C6-B7BB-BF0AB56B43F1}</Project>
+      <Name>sparse_extra_5</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\special_functions_1.vcxproj">
+      <Project>{874EC9CD-E777-3795-A34C-2D79FF03AA60}</Project>
+      <Name>special_functions_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\special_functions_2.vcxproj">
+      <Project>{2D52645B-13B9-30FD-8B21-1F9721C8F64D}</Project>
+      <Name>special_functions_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\special_functions_3.vcxproj">
+      <Project>{47A2E45A-FF89-3C15-9551-3EDB27E14B1F}</Project>
+      <Name>special_functions_3</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\special_functions_4.vcxproj">
+      <Project>{71D7A88E-63FC-3FBC-A8C1-CB5E7D4D6633}</Project>
+      <Name>special_functions_4</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\special_packetmath_1.vcxproj">
+      <Project>{73865FBC-7F31-3F24-B383-F38962D3F66A}</Project>
+      <Name>special_packetmath_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\special_packetmath_2.vcxproj">
+      <Project>{1180D4FB-BE20-3735-A282-7AE0A27FDE02}</Project>
+      <Name>special_packetmath_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\special_packetmath_3.vcxproj">
+      <Project>{D43C1A9F-4A6C-339B-B9F4-29D58CFC9C54}</Project>
+      <Name>special_packetmath_3</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\special_packetmath_4.vcxproj">
+      <Project>{E37C4188-3958-37A1-95FD-1D927322D88B}</Project>
+      <Name>special_packetmath_4</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\unsupported\test\splines.vcxproj">
+      <Project>{8BC57E2B-B901-3BEF-B575-D98B3E1A20EB}</Project>
+      <Name>splines</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

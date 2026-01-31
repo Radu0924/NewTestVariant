@@ -1,0 +1,10 @@
+^D:\DRONE\ACOUSTIC_DRONE_DETECTION\CPP_CORE\BUILD\_DEPS\EIGEN3-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Drone/acoustic_drone_detection/cpp_core/build/_deps/eigen3-subbuild -BD:/Drone/acoustic_drone_detection/cpp_core/build/_deps/eigen3-subbuild --check-stamp-file D:/Drone/acoustic_drone_detection/cpp_core/build/_deps/eigen3-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

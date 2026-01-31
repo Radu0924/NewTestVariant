@@ -1,0 +1,7 @@
+analysis
+api
+core
+detection
+gui
+hardware
+utils

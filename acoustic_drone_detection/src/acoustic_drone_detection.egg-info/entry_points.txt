@@ -1,0 +1,5 @@
+[console_scripts]
+drone-benchmark = scripts.benchmark:main
+drone-calibrate = scripts.calibrate:main
+drone-detect = src.main:main
+drone-detect-gui = src.gui.main_window:main

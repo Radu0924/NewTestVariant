@@ -1,0 +1,81 @@
+# 16-Microphone Planar Array Configuration (4x4 Grid)
+name: 16_mic_planar
+geometry_type: planar
+num_microphones: 16
+center: [0.0, 0.0, 0.0]
+reference_mic: 0
+
+metadata:
+  rows: 4
+  cols: 4
+  spacing: 0.08
+  plane: xy
+  description: "16-microphone planar rectangular array (4x4 grid, 8cm spacing)"
+  recommended_freq_range: [250, 8000]
+  spatial_aliasing_limit: 2145
+
+positions:
+  - id: 0
+    x: -0.12
+    y: -0.12
+    z: 0.0
+  - id: 1
+    x: -0.04
+    y: -0.12
+    z: 0.0
+  - id: 2
+    x: 0.04
+    y: -0.12
+    z: 0.0
+  - id: 3
+    x: 0.12
+    y: -0.12
+    z: 0.0
+  - id: 4
+    x: -0.12
+    y: -0.04
+    z: 0.0
+  - id: 5
+    x: -0.04
+    y: -0.04
+    z: 0.0
+  - id: 6
+    x: 0.04
+    y: -0.04
+    z: 0.0
+  - id: 7
+    x: 0.12
+    y: -0.04
+    z: 0.0
+  - id: 8
+    x: -0.12
+    y: 0.04
+    z: 0.0
+  - id: 9
+    x: -0.04
+    y: 0.04
+    z: 0.0
+  - id: 10
+    x: 0.04
+    y: 0.04
+    z: 0.0
+  - id: 11
+    x: 0.12
+    y: 0.04
+    z: 0.0
+  - id: 12
+    x: -0.12
+    y: 0.12
+    z: 0.0
+  - id: 13
+    x: -0.04
+    y: 0.12
+    z: 0.0
+  - id: 14
+    x: 0.04
+    y: 0.12
+    z: 0.0
+  - id: 15
+    x: 0.12
+    y: 0.12
+    z: 0.0

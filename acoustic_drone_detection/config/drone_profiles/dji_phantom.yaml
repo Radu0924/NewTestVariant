@@ -1,0 +1,35 @@
+# DJI Phantom Series Acoustic Profile
+name: DJI Phantom Series
+drone_type: quadcopter_large
+manufacturer: DJI
+model: Phantom (3/4)
+
+acoustic_characteristics:
+  fundamental_frequency: 180.0  # Hz
+  harmonic_frequencies: [360, 540, 720, 900, 1080]
+  frequency_range: [100, 3000]
+
+  motor_characteristics:
+    rpm_range: [3000, 6000]
+    motor_frequency_range: [150, 300]
+    num_motors: 4
+
+  propeller_characteristics:
+    num_blades: 2
+    prop_frequency_range: [400, 2000]
+    blade_pass_frequency: 150  # At hover
+
+spectral_features:
+  spectral_centroid: 650.0
+  spectral_bandwidth: 350.0
+  spectral_rolloff: 2000.0
+
+detection_parameters:
+  confidence_threshold: 0.55
+  min_snr: 8.0
+  detection_range: 400.0  # meters
+
+notes: |
+  DJI Phantom drones are larger and produce lower frequency signatures
+  than Mavic series. Stronger low-frequency content due to larger propellers.
+  More audible at longer ranges due to larger size.

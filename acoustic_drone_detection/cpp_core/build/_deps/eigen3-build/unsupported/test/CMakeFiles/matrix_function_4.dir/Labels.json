@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/Drone/acoustic_drone_detection/cpp_core/build/_deps/eigen3-src/unsupported/test/matrix_function.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"BuildUnsupported"
+		],
+		"name" : "matrix_function_4"
+	}
+}

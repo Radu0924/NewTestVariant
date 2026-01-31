@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Drone\acoustic_drone_detection\cpp_core\build\CMakeFiles\77570acc53b85c22668283eca8e65188\doc-eigen-prerequisites.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-src\doc\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\eigen3-build\doc\CMakeFiles\doc-eigen-prerequisites" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{3BC37546-8128-37A9-BE9B-853B25058610}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

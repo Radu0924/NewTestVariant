@@ -1,0 +1,1083 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.14.23+b0019275e for .NET Framework
+      Build started 31.01.2026 12:48:46.
+      
+      Project "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\3.31.6-msvc6\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\3.31.6-msvc6\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\3.31.6-msvc6\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.10
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/3.31.6-msvc6/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-i5pdpy"
+      binary: "D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-i5pdpy"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-i5pdpy'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c73e3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.23+b0019275e for .NET Framework
+        Build started 31.01.2026 12:48:49.
+        
+        Project "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i5pdpy\\cmTC_c73e3.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_c73e3.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i5pdpy\\Debug\\".
+          Creating directory "cmTC_c73e3.dir\\Debug\\cmTC_c73e3.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_c73e3.dir\\Debug\\cmTC_c73e3.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_c73e3.dir\\Debug\\cmTC_c73e3.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c73e3.dir\\Debug\\\\" /Fd"cmTC_c73e3.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35222 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c73e3.dir\\Debug\\\\" /Fd"cmTC_c73e3.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i5pdpy\\Debug\\cmTC_c73e3.exe" /INCREMENTAL /ILK:"cmTC_c73e3.dir\\Debug\\cmTC_c73e3.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-i5pdpy/Debug/cmTC_c73e3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-i5pdpy/Debug/cmTC_c73e3.lib" /MACHINE:X64  /machine:x64 cmTC_c73e3.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_c73e3.vcxproj -> D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i5pdpy\\Debug\\cmTC_c73e3.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_c73e3.dir\\Debug\\cmTC_c73e3.tlog\\unsuccessfulbuild".
+          Touching "cmTC_c73e3.dir\\Debug\\cmTC_c73e3.tlog\\cmTC_c73e3.lastbuildstate".
+        Done Building Project "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i5pdpy\\cmTC_c73e3.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.73
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35222.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "build/_deps/eigen3-src/CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.14.23+b0019275e for .NET Framework
+      Build started 31.01.2026 12:49:00.
+      
+      Project "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\3.31.6-msvc6\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\3.31.6-msvc6\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\3.31.6-msvc6\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.50
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/3.31.6-msvc6/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "build/_deps/eigen3-src/CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-aqcabu"
+      binary: "D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-aqcabu"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-aqcabu'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c842b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.23+b0019275e for .NET Framework
+        Build started 31.01.2026 12:49:01.
+        
+        Project "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aqcabu\\cmTC_c842b.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_c842b.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aqcabu\\Debug\\".
+          Creating directory "cmTC_c842b.dir\\Debug\\cmTC_c842b.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_c842b.dir\\Debug\\cmTC_c842b.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_c842b.dir\\Debug\\cmTC_c842b.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c842b.dir\\Debug\\\\" /Fd"cmTC_c842b.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35222 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c842b.dir\\Debug\\\\" /Fd"cmTC_c842b.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aqcabu\\Debug\\cmTC_c842b.exe" /INCREMENTAL /ILK:"cmTC_c842b.dir\\Debug\\cmTC_c842b.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-aqcabu/Debug/cmTC_c842b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-aqcabu/Debug/cmTC_c842b.lib" /MACHINE:X64  /machine:x64 cmTC_c842b.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_c842b.vcxproj -> D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aqcabu\\Debug\\cmTC_c842b.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_c842b.dir\\Debug\\cmTC_c842b.tlog\\unsuccessfulbuild".
+          Touching "cmTC_c842b.dir\\Debug\\cmTC_c842b.tlog\\cmTC_c842b.lastbuildstate".
+        Done Building Project "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aqcabu\\cmTC_c842b.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.45
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "build/_deps/eigen3-src/CMakeLists.txt:4 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "build/_deps/eigen3-src/CMakeLists.txt:4 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35222.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckCXXCompilerFlag.cmake:55 (cmake_check_compiler_flag)"
+      - "build/_deps/eigen3-src/CMakeLists.txt:77 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test EIGEN_COMPILER_SUPPORT_CPP11"
+    directories:
+      source: "D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-uhhsu0"
+      binary: "D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-uhhsu0"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc /O2 /arch:AVX2"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Drone/acoustic_drone_detection/cpp_core/build/_deps/eigen3-src/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "EIGEN_COMPILER_SUPPORT_CPP11"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-uhhsu0'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2ee43.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.23+b0019275e for .NET Framework
+        Build started 31.01.2026 12:49:03.
+        
+        Project "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uhhsu0\\cmTC_2ee43.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_2ee43.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uhhsu0\\Debug\\".
+          Creating directory "cmTC_2ee43.dir\\Debug\\cmTC_2ee43.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_2ee43.dir\\Debug\\cmTC_2ee43.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_2ee43.dir\\Debug\\cmTC_2ee43.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D EIGEN_COMPILER_SUPPORT_CPP11 /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /arch:AVX2 /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_2ee43.dir\\Debug\\\\" /Fd"cmTC_2ee43.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue  -std=c++11 "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uhhsu0\\src.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35222 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D EIGEN_COMPILER_SUPPORT_CPP11 /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /arch:AVX2 /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_2ee43.dir\\Debug\\\\" /Fd"cmTC_2ee43.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue  -std=c++11 "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uhhsu0\\src.cxx"
+        cl : command line  warning D9002: ignoring unknown option '-std=c++11' [D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uhhsu0\\cmTC_2ee43.vcxproj]
+          src.cxx
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uhhsu0\\Debug\\cmTC_2ee43.exe" /INCREMENTAL /ILK:"cmTC_2ee43.dir\\Debug\\cmTC_2ee43.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-uhhsu0/Debug/cmTC_2ee43.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-uhhsu0/Debug/cmTC_2ee43.lib" /MACHINE:X64  /machine:x64 cmTC_2ee43.dir\\Debug\\src.obj
+          cmTC_2ee43.vcxproj -> D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uhhsu0\\Debug\\cmTC_2ee43.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_2ee43.dir\\Debug\\cmTC_2ee43.tlog\\unsuccessfulbuild".
+          Touching "cmTC_2ee43.dir\\Debug\\cmTC_2ee43.tlog\\cmTC_2ee43.lastbuildstate".
+        Done Building Project "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uhhsu0\\cmTC_2ee43.vcxproj" (default targets).
+        
+        Build succeeded.
+        
+        "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uhhsu0\\cmTC_2ee43.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          cl : command line  warning D9002: ignoring unknown option '-std=c++11' [D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uhhsu0\\cmTC_2ee43.vcxproj]
+        
+            1 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.50
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckCXXCompilerFlag.cmake:55 (cmake_check_compiler_flag)"
+      - "build/_deps/eigen3-src/CMakeLists.txt:71 (check_cxx_compiler_flag)"
+      - "build/_deps/eigen3-src/CMakeLists.txt:88 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_std=cpp03"
+    directories:
+      source: "D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-pu17i9"
+      binary: "D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-pu17i9"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc /O2 /arch:AVX2"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Drone/acoustic_drone_detection/cpp_core/build/_deps/eigen3-src/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "COMPILER_SUPPORT_std=cpp03"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-pu17i9'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_5c7f1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.23+b0019275e for .NET Framework
+        Build started 31.01.2026 12:49:05.
+        
+        Project "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pu17i9\\cmTC_5c7f1.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_5c7f1.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pu17i9\\Debug\\".
+          Creating directory "cmTC_5c7f1.dir\\Debug\\cmTC_5c7f1.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_5c7f1.dir\\Debug\\cmTC_5c7f1.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_5c7f1.dir\\Debug\\cmTC_5c7f1.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D COMPILER_SUPPORT_std=cpp03 /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /arch:AVX2 /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5c7f1.dir\\Debug\\\\" /Fd"cmTC_5c7f1.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue  -std=c++03 "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pu17i9\\src.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35222 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D COMPILER_SUPPORT_std=cpp03 /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /arch:AVX2 /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5c7f1.dir\\Debug\\\\" /Fd"cmTC_5c7f1.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue  -std=c++03 "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pu17i9\\src.cxx"
+        cl : command line  warning D9002: ignoring unknown option '-std=c++03' [D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pu17i9\\cmTC_5c7f1.vcxproj]
+          src.cxx
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pu17i9\\Debug\\cmTC_5c7f1.exe" /INCREMENTAL /ILK:"cmTC_5c7f1.dir\\Debug\\cmTC_5c7f1.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-pu17i9/Debug/cmTC_5c7f1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-pu17i9/Debug/cmTC_5c7f1.lib" /MACHINE:X64  /machine:x64 cmTC_5c7f1.dir\\Debug\\src.obj
+          cmTC_5c7f1.vcxproj -> D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pu17i9\\Debug\\cmTC_5c7f1.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_5c7f1.dir\\Debug\\cmTC_5c7f1.tlog\\unsuccessfulbuild".
+          Touching "cmTC_5c7f1.dir\\Debug\\cmTC_5c7f1.tlog\\cmTC_5c7f1.lastbuildstate".
+        Done Building Project "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pu17i9\\cmTC_5c7f1.vcxproj" (default targets).
+        
+        Build succeeded.
+        
+        "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pu17i9\\cmTC_5c7f1.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          cl : command line  warning D9002: ignoring unknown option '-std=c++03' [D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pu17i9\\cmTC_5c7f1.vcxproj]
+        
+            1 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.47
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckCXXSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "build/_deps/eigen3-src/cmake/FindStandardMathLibrary.cmake:35 (CHECK_CXX_SOURCE_COMPILES)"
+      - "build/_deps/eigen3-src/CMakeLists.txt:98 (find_package)"
+    checks:
+      - "Performing Test standard_math_library_linked_to_automatically"
+    directories:
+      source: "D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-oqcy3s"
+      binary: "D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-oqcy3s"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc /O2 /arch:AVX2"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Drone/acoustic_drone_detection/cpp_core/build/_deps/eigen3-src/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "standard_math_library_linked_to_automatically"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-oqcy3s'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a1e0d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.23+b0019275e for .NET Framework
+        Build started 31.01.2026 12:49:05.
+        
+        Project "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oqcy3s\\cmTC_a1e0d.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_a1e0d.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oqcy3s\\Debug\\".
+          Creating directory "cmTC_a1e0d.dir\\Debug\\cmTC_a1e0d.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_a1e0d.dir\\Debug\\cmTC_a1e0d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_a1e0d.dir\\Debug\\cmTC_a1e0d.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D standard_math_library_linked_to_automatically /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /arch:AVX2 /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_a1e0d.dir\\Debug\\\\" /Fd"cmTC_a1e0d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oqcy3s\\src.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35222 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D standard_math_library_linked_to_automatically /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /arch:AVX2 /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_a1e0d.dir\\Debug\\\\" /Fd"cmTC_a1e0d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oqcy3s\\src.cxx"
+          src.cxx
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oqcy3s\\Debug\\cmTC_a1e0d.exe" /INCREMENTAL /ILK:"cmTC_a1e0d.dir\\Debug\\cmTC_a1e0d.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-oqcy3s/Debug/cmTC_a1e0d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-oqcy3s/Debug/cmTC_a1e0d.lib" /MACHINE:X64  /machine:x64 cmTC_a1e0d.dir\\Debug\\src.obj
+          cmTC_a1e0d.vcxproj -> D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oqcy3s\\Debug\\cmTC_a1e0d.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_a1e0d.dir\\Debug\\cmTC_a1e0d.tlog\\unsuccessfulbuild".
+          Touching "cmTC_a1e0d.dir\\Debug\\cmTC_a1e0d.tlog\\cmTC_a1e0d.lastbuildstate".
+        Done Building Project "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oqcy3s\\cmTC_a1e0d.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.50
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckCXXCompilerFlag.cmake:55 (cmake_check_compiler_flag)"
+      - "build/_deps/eigen3-src/CMakeLists.txt:347 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_OPENMP"
+    directories:
+      source: "D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-4he8kn"
+      binary: "D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-4he8kn"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc /O2 /arch:AVX2 /EHsc /wd4127 /wd4505 /wd4714"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Drone/acoustic_drone_detection/cpp_core/build/_deps/eigen3-src/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "COMPILER_SUPPORT_OPENMP"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-4he8kn'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_9dd41.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.23+b0019275e for .NET Framework
+        Build started 31.01.2026 12:49:07.
+        
+        Project "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4he8kn\\cmTC_9dd41.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_9dd41.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4he8kn\\Debug\\".
+          Creating directory "cmTC_9dd41.dir\\Debug\\cmTC_9dd41.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_9dd41.dir\\Debug\\cmTC_9dd41.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_9dd41.dir\\Debug\\cmTC_9dd41.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D COMPILER_SUPPORT_OPENMP /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /arch:AVX2 /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_9dd41.dir\\Debug\\\\" /Fd"cmTC_9dd41.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /wd4127 /wd4505 /wd4714 /errorReport:queue "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4he8kn\\src.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35222 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D COMPILER_SUPPORT_OPENMP /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /arch:AVX2 /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_9dd41.dir\\Debug\\\\" /Fd"cmTC_9dd41.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /wd4127 /wd4505 /wd4714 /errorReport:queue "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4he8kn\\src.cxx"
+          src.cxx
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4he8kn\\Debug\\cmTC_9dd41.exe" /INCREMENTAL /ILK:"cmTC_9dd41.dir\\Debug\\cmTC_9dd41.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-4he8kn/Debug/cmTC_9dd41.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-4he8kn/Debug/cmTC_9dd41.lib" /MACHINE:X64  /machine:x64 cmTC_9dd41.dir\\Debug\\src.obj
+          cmTC_9dd41.vcxproj -> D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4he8kn\\Debug\\cmTC_9dd41.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_9dd41.dir\\Debug\\cmTC_9dd41.tlog\\unsuccessfulbuild".
+          Touching "cmTC_9dd41.dir\\Debug\\cmTC_9dd41.tlog\\cmTC_9dd41.lastbuildstate".
+        Done Building Project "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4he8kn\\cmTC_9dd41.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.48
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineVSServicePack.cmake:106 (try_compile)"
+      - "build/_deps/eigen3-src/cmake/EigenDetermineVSServicePack.cmake:8 (_DetermineVSServicePack_CheckVersionWithTryCompile)"
+      - "build/_deps/eigen3-src/cmake/EigenTesting.cmake:460 (EigenDetermineVSServicePack)"
+      - "build/_deps/eigen3-src/cmake/EigenTesting.cmake:598 (ei_get_compilerver)"
+      - "build/_deps/eigen3-src/cmake/EigenConfigureTesting.cmake:8 (ei_set_build_string)"
+      - "build/_deps/eigen3-src/CMakeLists.txt:487 (include)"
+    directories:
+      source: "D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-v50u3e"
+      binary: "D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-v50u3e"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc /O2 /arch:AVX2 /EHsc /wd4127 /wd4505 /wd4714"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Drone/acoustic_drone_detection/cpp_core/build/_deps/eigen3-src/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "_CompileResult"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-v50u3e'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8b3f8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.23+b0019275e for .NET Framework
+        Build started 31.01.2026 12:49:14.
+        
+        Project "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v50u3e\\cmTC_8b3f8.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_8b3f8.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v50u3e\\Debug\\".
+          Creating directory "cmTC_8b3f8.dir\\Debug\\cmTC_8b3f8.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_8b3f8.dir\\Debug\\cmTC_8b3f8.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_8b3f8.dir\\Debug\\cmTC_8b3f8.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /arch:AVX2 /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_8b3f8.dir\\Debug\\\\" /Fd"cmTC_8b3f8.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /wd4127 /wd4505 /wd4714 /errorReport:queue D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\return0.cc
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35222 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /arch:AVX2 /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_8b3f8.dir\\Debug\\\\" /Fd"cmTC_8b3f8.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /wd4127 /wd4505 /wd4714 /errorReport:queue D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\return0.cc
+          return0.cc
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v50u3e\\Debug\\cmTC_8b3f8.exe" /INCREMENTAL /ILK:"cmTC_8b3f8.dir\\Debug\\cmTC_8b3f8.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-v50u3e/Debug/cmTC_8b3f8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-v50u3e/Debug/cmTC_8b3f8.lib" /MACHINE:X64  /machine:x64 cmTC_8b3f8.dir\\Debug\\return0.obj
+          cmTC_8b3f8.vcxproj -> D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v50u3e\\Debug\\cmTC_8b3f8.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_8b3f8.dir\\Debug\\cmTC_8b3f8.tlog\\unsuccessfulbuild".
+          Touching "cmTC_8b3f8.dir\\Debug\\cmTC_8b3f8.tlog\\cmTC_8b3f8.lastbuildstate".
+        Done Building Project "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v50u3e\\cmTC_8b3f8.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.45
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckLanguage.cmake:140 (message)"
+      - "build/_deps/eigen3-src/test/CMakeLists.txt:9 (check_language)"
+    checks:
+      - "Looking for a Fortran compiler"
+    message: |
+      Looking for a Fortran compiler failed with the following output:
+      -- Selecting Windows SDK version 10.0.26100.0 to target Windows 10.0.26200.
+      -- The Fortran compiler identification is unknown
+      CMake Error at CMakeLists.txt:3 (project):
+        No CMAKE_Fortran_COMPILER could be found.
+      
+      
+      
+      -- Configuring incomplete, errors occurred!
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "build/_deps/eigen3-src/cmake/FindBLAS.cmake:513 (find_dependency)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "build/_deps/eigen3-src/cmake/FindLAPACK.cmake:139 (find_dependency)"
+      - "build/_deps/eigen3-src/test/CMakeLists.txt:16 (find_package)"
+    directories:
+      source: "D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-4e0zfl"
+      binary: "D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-4e0zfl"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Drone/acoustic_drone_detection/cpp_core/build/_deps/eigen3-src/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-4e0zfl'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_7ac4c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.23+b0019275e for .NET Framework
+        Build started 31.01.2026 12:49:16.
+        
+        Project "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4e0zfl\\cmTC_7ac4c.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_7ac4c.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4e0zfl\\Debug\\".
+          Creating directory "cmTC_7ac4c.dir\\Debug\\cmTC_7ac4c.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_7ac4c.dir\\Debug\\cmTC_7ac4c.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_7ac4c.dir\\Debug\\cmTC_7ac4c.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7ac4c.dir\\Debug\\\\" /Fd"cmTC_7ac4c.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4e0zfl\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35222 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7ac4c.dir\\Debug\\\\" /Fd"cmTC_7ac4c.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4e0zfl\\src.c"
+          src.c
+        D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4e0zfl\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4e0zfl\\cmTC_7ac4c.vcxproj]
+        Done Building Project "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4e0zfl\\cmTC_7ac4c.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4e0zfl\\cmTC_7ac4c.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4e0zfl\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4e0zfl\\cmTC_7ac4c.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.32
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "build/_deps/eigen3-src/cmake/FindBLAS.cmake:513 (find_dependency)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "build/_deps/eigen3-src/cmake/FindLAPACK.cmake:139 (find_dependency)"
+      - "build/_deps/eigen3-src/test/CMakeLists.txt:16 (find_package)"
+    directories:
+      source: "D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-din6rl"
+      binary: "D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-din6rl"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Drone/acoustic_drone_detection/cpp_core/build/_deps/eigen3-src/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-din6rl'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a8d28.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.23+b0019275e for .NET Framework
+        Build started 31.01.2026 12:49:17.
+        
+        Project "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-din6rl\\cmTC_a8d28.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_a8d28.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-din6rl\\Debug\\".
+          Creating directory "cmTC_a8d28.dir\\Debug\\cmTC_a8d28.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_a8d28.dir\\Debug\\cmTC_a8d28.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_a8d28.dir\\Debug\\cmTC_a8d28.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a8d28.dir\\Debug\\\\" /Fd"cmTC_a8d28.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-din6rl\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35222 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a8d28.dir\\Debug\\\\" /Fd"cmTC_a8d28.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-din6rl\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-din6rl\\Debug\\cmTC_a8d28.exe" /INCREMENTAL /ILK:"cmTC_a8d28.dir\\Debug\\cmTC_a8d28.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-din6rl/Debug/cmTC_a8d28.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-din6rl/Debug/cmTC_a8d28.lib" /MACHINE:X64  /machine:x64 cmTC_a8d28.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-din6rl\\cmTC_a8d28.vcxproj]
+        Done Building Project "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-din6rl\\cmTC_a8d28.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-din6rl\\cmTC_a8d28.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-din6rl\\cmTC_a8d28.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.36
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "build/_deps/eigen3-src/cmake/FindBLAS.cmake:513 (find_dependency)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "build/_deps/eigen3-src/cmake/FindLAPACK.cmake:139 (find_dependency)"
+      - "build/_deps/eigen3-src/test/CMakeLists.txt:16 (find_package)"
+    directories:
+      source: "D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-rkhbpk"
+      binary: "D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-rkhbpk"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Drone/acoustic_drone_detection/cpp_core/build/_deps/eigen3-src/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-rkhbpk'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e4356.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.23+b0019275e for .NET Framework
+        Build started 31.01.2026 12:49:18.
+        
+        Project "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rkhbpk\\cmTC_e4356.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_e4356.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rkhbpk\\Debug\\".
+          Creating directory "cmTC_e4356.dir\\Debug\\cmTC_e4356.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_e4356.dir\\Debug\\cmTC_e4356.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_e4356.dir\\Debug\\cmTC_e4356.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e4356.dir\\Debug\\\\" /Fd"cmTC_e4356.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rkhbpk\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35222 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e4356.dir\\Debug\\\\" /Fd"cmTC_e4356.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rkhbpk\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rkhbpk\\Debug\\cmTC_e4356.exe" /INCREMENTAL /ILK:"cmTC_e4356.dir\\Debug\\cmTC_e4356.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-rkhbpk/Debug/cmTC_e4356.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-rkhbpk/Debug/cmTC_e4356.lib" /MACHINE:X64  /machine:x64 cmTC_e4356.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rkhbpk\\cmTC_e4356.vcxproj]
+        Done Building Project "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rkhbpk\\cmTC_e4356.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rkhbpk\\cmTC_e4356.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rkhbpk\\cmTC_e4356.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.35
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckCXXCompilerFlag.cmake:55 (cmake_check_compiler_flag)"
+      - "build/_deps/eigen3-src/test/CMakeLists.txt:295 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_FASTMATH"
+    directories:
+      source: "D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-h6h4s2"
+      binary: "D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-h6h4s2"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc /O2 /arch:AVX2 /EHsc /wd4127 /wd4505 /wd4714 /D_CRT_SECURE_NO_WARNINGS /D_SCL_SECURE_NO_WARNINGS"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Drone/acoustic_drone_detection/cpp_core/build/_deps/eigen3-src/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "COMPILER_SUPPORT_FASTMATH"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-h6h4s2'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0ac08.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.23+b0019275e for .NET Framework
+        Build started 31.01.2026 12:49:23.
+        
+        Project "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h6h4s2\\cmTC_0ac08.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_0ac08.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h6h4s2\\Debug\\".
+          Creating directory "cmTC_0ac08.dir\\Debug\\cmTC_0ac08.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_0ac08.dir\\Debug\\cmTC_0ac08.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_0ac08.dir\\Debug\\cmTC_0ac08.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D COMPILER_SUPPORT_FASTMATH /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /arch:AVX2 /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_0ac08.dir\\Debug\\\\" /Fd"cmTC_0ac08.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /wd4127 /wd4505 /wd4714 /errorReport:queue  -ffast-math "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h6h4s2\\src.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35222 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D COMPILER_SUPPORT_FASTMATH /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /arch:AVX2 /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_0ac08.dir\\Debug\\\\" /Fd"cmTC_0ac08.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /wd4127 /wd4505 /wd4714 /errorReport:queue  -ffast-math "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h6h4s2\\src.cxx"
+        cl : command line  warning D9002: ignoring unknown option '-ffast-math' [D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h6h4s2\\cmTC_0ac08.vcxproj]
+          src.cxx
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h6h4s2\\Debug\\cmTC_0ac08.exe" /INCREMENTAL /ILK:"cmTC_0ac08.dir\\Debug\\cmTC_0ac08.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-h6h4s2/Debug/cmTC_0ac08.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-h6h4s2/Debug/cmTC_0ac08.lib" /MACHINE:X64  /machine:x64 cmTC_0ac08.dir\\Debug\\src.obj
+          cmTC_0ac08.vcxproj -> D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h6h4s2\\Debug\\cmTC_0ac08.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_0ac08.dir\\Debug\\cmTC_0ac08.tlog\\unsuccessfulbuild".
+          Touching "cmTC_0ac08.dir\\Debug\\cmTC_0ac08.tlog\\cmTC_0ac08.lastbuildstate".
+        Done Building Project "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h6h4s2\\cmTC_0ac08.vcxproj" (default targets).
+        
+        Build succeeded.
+        
+        "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h6h4s2\\cmTC_0ac08.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          cl : command line  warning D9002: ignoring unknown option '-ffast-math' [D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h6h4s2\\cmTC_0ac08.vcxproj]
+        
+            1 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.46
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckCXXCompilerFlag.cmake:55 (cmake_check_compiler_flag)"
+      - "build/_deps/eigen3-src/test/CMakeLists.txt:299 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_FPFAST"
+    directories:
+      source: "D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-gkng45"
+      binary: "D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-gkng45"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc /O2 /arch:AVX2 /EHsc /wd4127 /wd4505 /wd4714 /D_CRT_SECURE_NO_WARNINGS /D_SCL_SECURE_NO_WARNINGS"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Drone/acoustic_drone_detection/cpp_core/build/_deps/eigen3-src/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "COMPILER_SUPPORT_FPFAST"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-gkng45'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_99bab.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.23+b0019275e for .NET Framework
+        Build started 31.01.2026 12:49:25.
+        
+        Project "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gkng45\\cmTC_99bab.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_99bab.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gkng45\\Debug\\".
+          Creating directory "cmTC_99bab.dir\\Debug\\cmTC_99bab.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_99bab.dir\\Debug\\cmTC_99bab.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_99bab.dir\\Debug\\cmTC_99bab.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D COMPILER_SUPPORT_FPFAST /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /arch:AVX2 /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_99bab.dir\\Debug\\\\" /Fd"cmTC_99bab.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /wd4127 /wd4505 /wd4714 /errorReport:queue "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gkng45\\src.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35222 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D COMPILER_SUPPORT_FPFAST /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /arch:AVX2 /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_99bab.dir\\Debug\\\\" /Fd"cmTC_99bab.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /wd4127 /wd4505 /wd4714 /errorReport:queue "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gkng45\\src.cxx"
+          src.cxx
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gkng45\\Debug\\cmTC_99bab.exe" /INCREMENTAL /ILK:"cmTC_99bab.dir\\Debug\\cmTC_99bab.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-gkng45/Debug/cmTC_99bab.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-gkng45/Debug/cmTC_99bab.lib" /MACHINE:X64  /machine:x64 cmTC_99bab.dir\\Debug\\src.obj
+          cmTC_99bab.vcxproj -> D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gkng45\\Debug\\cmTC_99bab.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_99bab.dir\\Debug\\cmTC_99bab.tlog\\unsuccessfulbuild".
+          Touching "cmTC_99bab.dir\\Debug\\cmTC_99bab.tlog\\cmTC_99bab.lastbuildstate".
+        Done Building Project "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gkng45\\cmTC_99bab.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.47
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindOpenMP.cmake:252 (try_compile)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindOpenMP.cmake:522 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:42 (find_package)"
+    description: "Detecting CXX OpenMP compiler info"
+    directories:
+      source: "D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-zv2kwg"
+      binary: "D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-zv2kwg"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc /O2 /arch:AVX2"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_openmp"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-zv2kwg'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_63c29.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.23+b0019275e for .NET Framework
+        Build started 31.01.2026 12:49:27.
+        
+        Project "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zv2kwg\\cmTC_63c29.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_63c29.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zv2kwg\\Debug\\".
+          Creating directory "cmTC_63c29.dir\\Debug\\cmTC_63c29.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_63c29.dir\\Debug\\cmTC_63c29.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_63c29.dir\\Debug\\cmTC_63c29.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /arch:AVX2 /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /std:c++17 /Fo"cmTC_63c29.dir\\Debug\\\\" /Fd"cmTC_63c29.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zv2kwg\\OpenMPTryFlag.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35222 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /arch:AVX2 /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /std:c++17 /Fo"cmTC_63c29.dir\\Debug\\\\" /Fd"cmTC_63c29.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zv2kwg\\OpenMPTryFlag.cpp"
+          OpenMPTryFlag.cpp
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zv2kwg\\Debug\\cmTC_63c29.exe" /INCREMENTAL /ILK:"cmTC_63c29.dir\\Debug\\cmTC_63c29.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-zv2kwg/Debug/cmTC_63c29.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-zv2kwg/Debug/cmTC_63c29.lib" /MACHINE:X64  /machine:x64 cmTC_63c29.dir\\Debug\\OpenMPTryFlag.obj
+          cmTC_63c29.vcxproj -> D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zv2kwg\\Debug\\cmTC_63c29.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_63c29.dir\\Debug\\cmTC_63c29.tlog\\unsuccessfulbuild".
+          Touching "cmTC_63c29.dir\\Debug\\cmTC_63c29.tlog\\cmTC_63c29.lastbuildstate".
+        Done Building Project "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zv2kwg\\cmTC_63c29.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.44
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindOpenMP.cmake:456 (try_compile)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindOpenMP.cmake:596 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:42 (find_package)"
+    description: "Detecting CXX OpenMP version"
+    directories:
+      source: "D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-sa3qae"
+      binary: "D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-sa3qae"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc /O2 /arch:AVX2"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "OpenMP_SPECTEST_CXX_"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-sa3qae'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d9f05.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.23+b0019275e for .NET Framework
+        Build started 31.01.2026 12:49:28.
+        
+        Project "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sa3qae\\cmTC_d9f05.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_d9f05.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sa3qae\\Debug\\".
+          Creating directory "cmTC_d9f05.dir\\Debug\\cmTC_d9f05.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_d9f05.dir\\Debug\\cmTC_d9f05.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_d9f05.dir\\Debug\\cmTC_d9f05.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /arch:AVX2 /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /std:c++17 /Fo"cmTC_d9f05.dir\\Debug\\\\" /Fd"cmTC_d9f05.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sa3qae\\OpenMPCheckVersion.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35222 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /arch:AVX2 /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /std:c++17 /Fo"cmTC_d9f05.dir\\Debug\\\\" /Fd"cmTC_d9f05.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sa3qae\\OpenMPCheckVersion.cpp"
+          OpenMPCheckVersion.cpp
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sa3qae\\Debug\\cmTC_d9f05.exe" /INCREMENTAL /ILK:"cmTC_d9f05.dir\\Debug\\cmTC_d9f05.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-sa3qae/Debug/cmTC_d9f05.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-sa3qae/Debug/cmTC_d9f05.lib" /MACHINE:X64  /machine:x64 cmTC_d9f05.dir\\Debug\\OpenMPCheckVersion.obj
+          cmTC_d9f05.vcxproj -> D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sa3qae\\Debug\\cmTC_d9f05.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_d9f05.dir\\Debug\\cmTC_d9f05.tlog\\unsuccessfulbuild".
+          Touching "cmTC_d9f05.dir\\Debug\\cmTC_d9f05.tlog\\cmTC_d9f05.lastbuildstate".
+        Done Building Project "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sa3qae\\cmTC_d9f05.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.45
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckCXXCompilerFlag.cmake:55 (cmake_check_compiler_flag)"
+      - "build/_deps/pybind11-src/tools/pybind11Common.cmake:276 (check_cxx_compiler_flag)"
+      - "build/_deps/pybind11-src/tools/pybind11Common.cmake:340 (_pybind11_return_if_cxx_and_linker_flags_work)"
+      - "build/_deps/pybind11-src/tools/pybind11Common.cmake:385 (_pybind11_generate_lto)"
+      - "build/_deps/pybind11-src/CMakeLists.txt:210 (include)"
+    checks:
+      - "Performing Test HAS_MSVC_GL_LTCG"
+    directories:
+      source: "D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-clxrsu"
+      binary: "D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-clxrsu"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc /O2 /arch:AVX2 -openmp"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAS_MSVC_GL_LTCG"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-clxrsu'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_83104.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.23+b0019275e for .NET Framework
+        Build started 31.01.2026 12:49:35.
+        
+        Project "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-clxrsu\\cmTC_83104.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_83104.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-clxrsu\\Debug\\".
+          Creating directory "cmTC_83104.dir\\Debug\\cmTC_83104.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_83104.dir\\Debug\\cmTC_83104.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_83104.dir\\Debug\\cmTC_83104.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D HAS_MSVC_GL_LTCG /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /arch:AVX2 /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_83104.dir\\Debug\\\\" /Fd"cmTC_83104.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-clxrsu\\src.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35222 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D HAS_MSVC_GL_LTCG /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /arch:AVX2 /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_83104.dir\\Debug\\\\" /Fd"cmTC_83104.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-clxrsu\\src.cxx"
+          src.cxx
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-clxrsu\\Debug\\cmTC_83104.exe" /INCREMENTAL /ILK:"cmTC_83104.dir\\Debug\\cmTC_83104.ilk" /NOLOGO "-LTCG" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-clxrsu/Debug/cmTC_83104.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Drone/acoustic_drone_detection/cpp_core/build/CMakeFiles/CMakeScratch/TryCompile-clxrsu/Debug/cmTC_83104.lib" /MACHINE:X64  /machine:x64 cmTC_83104.dir\\Debug\\src.obj
+        LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification [D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-clxrsu\\cmTC_83104.vcxproj]
+          Generating code
+          Finished generating code
+          cmTC_83104.vcxproj -> D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-clxrsu\\Debug\\cmTC_83104.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_83104.dir\\Debug\\cmTC_83104.tlog\\unsuccessfulbuild".
+          Touching "cmTC_83104.dir\\Debug\\cmTC_83104.tlog\\cmTC_83104.lastbuildstate".
+        Done Building Project "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-clxrsu\\cmTC_83104.vcxproj" (default targets).
+        
+        Build succeeded.
+        
+        "D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-clxrsu\\cmTC_83104.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification [D:\\Drone\\acoustic_drone_detection\\cpp_core\\build\\CMakeFiles\\CMakeScratch\\TryCompile-clxrsu\\cmTC_83104.vcxproj]
+        
+            1 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.48
+        
+      exitCode: 0
+...

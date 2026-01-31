@@ -1,0 +1,10 @@
+^D:\DRONE\ACOUSTIC_DRONE_DETECTION\CPP_CORE\BUILD\CMAKEFILES\A6B83844DCC6B8664B728B7F4B7AC69D\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Drone/acoustic_drone_detection/cpp_core -BD:/Drone/acoustic_drone_detection/cpp_core/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Drone/acoustic_drone_detection/cpp_core/build/drone_detection_core.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

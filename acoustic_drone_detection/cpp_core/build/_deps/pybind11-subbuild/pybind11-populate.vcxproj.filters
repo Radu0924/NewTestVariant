@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\pybind11-subbuild\CMakeFiles\1a45d603143e73e2cdc4a1872e5f9215\pybind11-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\pybind11-subbuild\CMakeFiles\1a45d603143e73e2cdc4a1872e5f9215\pybind11-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\pybind11-subbuild\CMakeFiles\1a45d603143e73e2cdc4a1872e5f9215\pybind11-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\pybind11-subbuild\CMakeFiles\1a45d603143e73e2cdc4a1872e5f9215\pybind11-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\pybind11-subbuild\CMakeFiles\1a45d603143e73e2cdc4a1872e5f9215\pybind11-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\pybind11-subbuild\CMakeFiles\1a45d603143e73e2cdc4a1872e5f9215\pybind11-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\pybind11-subbuild\CMakeFiles\1a45d603143e73e2cdc4a1872e5f9215\pybind11-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\pybind11-subbuild\CMakeFiles\1a45d603143e73e2cdc4a1872e5f9215\pybind11-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\pybind11-subbuild\CMakeFiles\277abe38569f70d3c70287f49e21c4a5\pybind11-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\pybind11-subbuild\CMakeFiles\4e26c23c5a4fad7c26983a5d665c9dc4\pybind11-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\pybind11-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Drone\acoustic_drone_detection\cpp_core\build\_deps\pybind11-subbuild\CMakeFiles\pybind11-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{E66A2779-B859-3D8A-9F24-F2BC2A4446C0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

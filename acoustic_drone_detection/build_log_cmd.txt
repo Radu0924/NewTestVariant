@@ -1,0 +1,71 @@
+-- Selecting Windows SDK version 10.0.26100.0 to target Windows 10.0.26200.
+-- Could NOT find pybind11 (missing: pybind11_DIR)
+CMake Deprecation Warning at build/_deps/pybind11-src/CMakeLists.txt:8 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+-- pybind11 v2.11.1 
+CMake Warning (dev) at CMakeLists.txt:135 (install):
+  Policy CMP0177 is not set: install() DESTINATION paths are normalized.  Run
+  "cmake --help-policy CMP0177" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Configuring done (1.4s)
+-- Generating done (0.3s)
+-- Build files have been written to: D:/Drone/acoustic_drone_detection/cpp_core/build
+MSBuild version 17.14.23+b0019275e for .NET Framework
+
+  signal_processor.cpp
+D:\Drone\acoustic_drone_detection\cpp_core\include\common.hpp(78,33): error C2065: 'M_PI': undeclared identifier [D:\Drone\acoustic_drone_detection\cpp_core\build\drone_core.vcxproj]
+  (compiling source file '../src/signal_processor.cpp')
+  
+D:\Drone\acoustic_drone_detection\cpp_core\include\common.hpp(79,35): error C2065: 'M_PI': undeclared identifier [D:\Drone\acoustic_drone_detection\cpp_core\build\drone_core.vcxproj]
+  (compiling source file '../src/signal_processor.cpp')
+  
+  beamforming.cpp
+D:\Drone\acoustic_drone_detection\cpp_core\include\common.hpp(78,33): error C2065: 'M_PI': undeclared identifier [D:\Drone\acoustic_drone_detection\cpp_core\build\drone_core.vcxproj]
+  (compiling source file '../src/beamforming.cpp')
+  
+D:\Drone\acoustic_drone_detection\cpp_core\include\common.hpp(79,35): error C2065: 'M_PI': undeclared identifier [D:\Drone\acoustic_drone_detection\cpp_core\build\drone_core.vcxproj]
+  (compiling source file '../src/beamforming.cpp')
+  
+D:\Drone\acoustic_drone_detection\cpp_core\src\beamforming.cpp(191,17): error C3016: 'bin': index variable in OpenMP 'for' statement must have signed integral type [D:\Drone\acoustic_drone_detection\cpp_core\build\drone_core.vcxproj]
+D:\Drone\acoustic_drone_detection\cpp_core\src\beamforming.cpp(244,21): error C3016: 'bin': index variable in OpenMP 'for' statement must have signed integral type [D:\Drone\acoustic_drone_detection\cpp_core\build\drone_core.vcxproj]
+  tdoa_engine.cpp
+D:\Drone\acoustic_drone_detection\cpp_core\include\common.hpp(78,33): error C2065: 'M_PI': undeclared identifier [D:\Drone\acoustic_drone_detection\cpp_core\build\drone_core.vcxproj]
+  (compiling source file '../src/tdoa_engine.cpp')
+  
+D:\Drone\acoustic_drone_detection\cpp_core\include\common.hpp(79,35): error C2065: 'M_PI': undeclared identifier [D:\Drone\acoustic_drone_detection\cpp_core\build\drone_core.vcxproj]
+  (compiling source file '../src/tdoa_engine.cpp')
+  
+D:\Drone\acoustic_drone_detection\cpp_core\src\tdoa_engine.cpp(68,17): error C3016: 'p': index variable in OpenMP 'for' statement must have signed integral type [D:\Drone\acoustic_drone_detection\cpp_core\build\drone_core.vcxproj]
+  audio_buffer.cpp
+D:\Drone\acoustic_drone_detection\cpp_core\include\common.hpp(78,33): error C2065: 'M_PI': undeclared identifier [D:\Drone\acoustic_drone_detection\cpp_core\build\drone_core.vcxproj]
+  (compiling source file '../src/audio_buffer.cpp')
+  
+D:\Drone\acoustic_drone_detection\cpp_core\include\common.hpp(79,35): error C2065: 'M_PI': undeclared identifier [D:\Drone\acoustic_drone_detection\cpp_core\build\drone_core.vcxproj]
+  (compiling source file '../src/audio_buffer.cpp')
+  
+  fft_processor.cpp
+D:\Drone\acoustic_drone_detection\cpp_core\include\common.hpp(78,33): error C2065: 'M_PI': undeclared identifier [D:\Drone\acoustic_drone_detection\cpp_core\build\drone_core.vcxproj]
+  (compiling source file '../src/fft_processor.cpp')
+  
+D:\Drone\acoustic_drone_detection\cpp_core\include\common.hpp(79,35): error C2065: 'M_PI': undeclared identifier [D:\Drone\acoustic_drone_detection\cpp_core\build\drone_core.vcxproj]
+  (compiling source file '../src/fft_processor.cpp')
+  
+D:\Drone\acoustic_drone_detection\cpp_core\src\fft_processor.cpp(7,10): error C1083: Cannot open include file: 'Eigen/FFT': No such file or directory [D:\Drone\acoustic_drone_detection\cpp_core\build\drone_core.vcxproj]
+  Generating Code...
+Using CMake: C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe
+Using Visual Studio: C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools
+
+=== Configuring ===
+Command: C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe D:\Drone\acoustic_drone_detection\cpp_core -DCMAKE_BUILD_TYPE=Release -DUSE_CUDA=OFF -DBUILD_PYTHON_BINDINGS=ON -G Visual Studio 17 2022 -A x64
+
+=== Building ===
+ERROR: Build failed
