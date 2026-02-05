@@ -1,0 +1,36 @@
+# FPV Racing Drone Acoustic Profile
+name: FPV Racing Drone
+drone_type: fpv_racing
+manufacturer: Generic
+model: 5-inch Racing Quad
+
+acoustic_characteristics:
+  fundamental_frequency: 450.0  # Hz
+  harmonic_frequencies: [900, 1350, 1800, 2250, 2700, 3600]
+  frequency_range: [300, 8000]
+
+  motor_characteristics:
+    rpm_range: [8000, 30000]
+    motor_frequency_range: [400, 1000]
+    num_motors: 4
+
+  propeller_characteristics:
+    num_blades: 3  # Triblade common in racing
+    prop_frequency_range: [1500, 6000]
+    blade_pass_frequency: 500  # Variable with throttle
+
+spectral_features:
+  spectral_centroid: 1500.0
+  spectral_bandwidth: 800.0
+  spectral_rolloff: 5000.0
+
+detection_parameters:
+  confidence_threshold: 0.5
+  min_snr: 15.0
+  detection_range: 200.0  # meters
+
+notes: |
+  FPV racing drones produce high-pitched, aggressive sound signatures.
+  High RPM motors create distinctive whine. Sound signature varies
+  dramatically with throttle position. Very loud at full throttle.
+  Short detection window due to high speed.

@@ -1,0 +1,116 @@
+# Default Configuration for Acoustic Drone Detection System
+# Version: 1.0
+
+audio:
+  sample_rate: 48000
+  bit_depth: 24
+  num_channels: 12
+  buffer_size: 512
+  device_name: null
+  device_index: null
+  requested_channels: null
+  enabled_channels: null
+  channel_map: null
+# Example:
+#   requested_channels: 12
+#   enabled_channels: [0,1,2,3,4,5,6,7]
+#   channel_map: [3,2,1,0,4,5,6,7]  # reorder device channels (optional)
+
+array:
+  geometry_type: circular
+  num_microphones: 12
+  mic_spacing: 0.10
+  positions: []
+  center_position: [0.0, 0.0, 0.0]
+
+detection:
+  freq_min: 80
+  freq_max: 8000
+  detection_threshold: 0.5
+  min_confidence: 0.3
+  max_detection_range: 500.0
+  angular_precision: standard  # standard, high, ultra
+  update_rate: 30  # Hz
+  target_types:
+    - quadcopter
+    - hexacopter
+    - fpv_racing
+    - fixed_wing
+    - unknown
+
+environment:
+  preset: outdoor_calm  # indoor, outdoor_calm, outdoor_windy, urban, rural
+  reverb_compensation: false
+  wind_filter: "off"  # off, light, aggressive, adaptive
+  traffic_filter: false
+  rain_filter: false
+  emi_filter: false
+  machinery_filter: false
+  expected_noise_floor: medium  # low, medium, high
+
+performance:
+  gpu_mode: auto  # auto, force_gpu, force_cpu
+  gpu_signal_processing: true
+  gpu_ml_inference: true
+  processing_priority: high  # low, normal, high
+  num_threads: 4
+
+recording:
+  auto_record_on_detection: true
+  recording_format: flac  # wav, flac, mp3, ogg
+  save_location: data/recordings
+  pre_buffer_seconds: 5.0
+  post_buffer_seconds: 10.0
+
+tracking:
+  algorithm: ekf  # ekf, ukf, particle, mht
+  max_targets: 10
+  track_timeout: 5.0
+  association_threshold: 20.0
+  prediction_model: linear  # linear, curvilinear
+
+signal_processing:
+  bandpass_low: 80.0
+  bandpass_high: 8000.0
+  bandpass_order: 4
+  notch_freqs: [50.0, 60.0, 100.0, 120.0]
+  notch_q: 30.0
+  fft_size: 2048
+  hop_size: 512
+  window_type: hann
+
+beamforming:
+  method: music  # das, mvdr, music, esprit, srp_phat
+  num_azimuth: 360
+  num_elevation: 91
+  azimuth_range: [0.0, 360.0]
+  elevation_range: [-90.0, 90.0]
+  num_sources: 1
+  frequency_range: [100.0, 8000.0]
+
+localization:
+  method: hybrid  # spherical_intersection, multilateration, hybrid
+  sound_speed: 343.0
+  max_distance: 500.0
+  min_distance: 1.0
+
+alerts:
+  enable_sound: true
+  enable_visual: true
+  enable_logging: true
+  high_threat_sound: alerts/high_threat.wav
+  medium_threat_sound: alerts/medium_threat.wav
+  low_threat_sound: alerts/low_threat.wav
+
+export:
+  enable_json: true
+  enable_csv: true
+  enable_sqlite: true
+  export_directory: data/exports
+
+logging:
+  level: INFO
+  log_directory: logs
+  enable_json_logs: false
+  max_file_size_mb: 10
+  backup_count: 5

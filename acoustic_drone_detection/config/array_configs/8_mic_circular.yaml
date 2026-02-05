@@ -1,0 +1,47 @@
+# 8-Microphone Circular Array Configuration
+name: 8_mic_circular
+geometry_type: circular
+num_microphones: 8
+center: [0.0, 0.0, 0.0]
+reference_mic: 0
+
+metadata:
+  radius: 0.10
+  plane: xy
+  description: "8-microphone circular array with 10cm radius"
+  recommended_freq_range: [200, 8500]
+  spatial_aliasing_limit: 1715  # Hz
+
+positions:
+  - id: 0
+    x: 0.100
+    y: 0.000
+    z: 0.000
+  - id: 1
+    x: 0.0707
+    y: 0.0707
+    z: 0.000
+  - id: 2
+    x: 0.000
+    y: 0.100
+    z: 0.000
+  - id: 3
+    x: -0.0707
+    y: 0.0707
+    z: 0.000
+  - id: 4
+    x: -0.100
+    y: 0.000
+    z: 0.000
+  - id: 5
+    x: -0.0707
+    y: -0.0707
+    z: 0.000
+  - id: 6
+    x: 0.000
+    y: -0.100
+    z: 0.000
+  - id: 7
+    x: 0.0707
+    y: -0.0707
+    z: 0.000

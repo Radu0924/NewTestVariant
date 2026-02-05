@@ -1,0 +1,36 @@
+# Fixed Wing Drone Acoustic Profile
+name: Fixed Wing Drone
+drone_type: fixed_wing
+manufacturer: Generic
+model: Electric Fixed Wing
+
+acoustic_characteristics:
+  fundamental_frequency: 80.0  # Hz
+  harmonic_frequencies: [160, 240, 320, 400]
+  frequency_range: [50, 1500]
+
+  motor_characteristics:
+    rpm_range: [2000, 8000]
+    motor_frequency_range: [50, 200]
+    num_motors: 1
+
+  propeller_characteristics:
+    num_blades: 2
+    prop_frequency_range: [100, 800]
+    blade_pass_frequency: 70  # At cruise
+
+spectral_features:
+  spectral_centroid: 300.0
+  spectral_bandwidth: 200.0
+  spectral_rolloff: 800.0
+
+detection_parameters:
+  confidence_threshold: 0.4
+  min_snr: 6.0
+  detection_range: 500.0  # meters
+
+notes: |
+  Fixed wing drones produce lower frequency signatures than multirotors.
+  Single propeller creates simpler harmonic structure. Quieter at cruise
+  due to aerodynamic efficiency. Doppler shift significant due to
+  higher speeds. May be confused with small aircraft.
