@@ -237,11 +237,3 @@ uvicorn src.api.rest_api:app --host 0.0.0.0 --port 8000
 ```bash
 pytest tests/ -v
 ```
-
-## Documentation
-
-- [V2 Upgrade Implementation Spec](docs/V2_UPGRADE_IMPLEMENTATION_SPEC.md)
-
-## License
-
-MIT License
